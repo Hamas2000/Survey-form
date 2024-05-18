@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afghan Students Mental Status Survery Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Afghan Students Mental Status Survery Form</h1>
+<p id="description">Thank you for filling this form</p>
+  <form id= "survey-form">
+    <fieldset>
+    <label id="name-label">Name<br><input id="name"type="text" required placeholder="Enter your full name" /></label><br>
+   <label id="email-label">Email<br><input id="email"type="email" required placeholder="Enter your email" /></label><br>
+   <label id="number-label">Age <br><input id="number" type="number" min="18" max="35" placeholder="Enter your age"/></label><br>
+  How do you feel today?<label><br><select id="dropdown">
+    <option value="Good">Good</option>
+    <option value="Bad">Bad</option>
+    <option value="Confused">Confused</option>
+  </select></label></fieldset>
+  <fieldset>
+    <legend>How do you feel most of the time?</legend>
+    <input id="good" name="feel" type="radio" value="1">
+    <label for="good">Happy (Good)</label><br>
+    
+    <input id="bad" name="feel" type="radio" value="2">
+    <label for="bad">Sad (Bad)</label><br>
+    
+    <input id="natural" name="feel" type="radio" value="3">
+    <label for="natural">Natural (Confused)</label><br>
+  </fieldset>
+  
+  <fieldset>
+    <legend>How often do you cry?</legend>
+    <input id="once" name="cry" type="radio" value="1">
+    <label for="once">Once in a week</label><br>
+    
+    <input id="two" name="cry" type="radio" value="2">
+    <label for="two">Two to Three times</label><br>
+    
+    <input id="more" name="cry" type="radio" value="3">
+    <label for="more">More than that</label><br>
+  </fieldset>
+  <fieldset>
+    <legend>Choose your interests:</legend>
+    <input id="music" name="interests" type="checkbox" value="music">
+    <label for="music">Music</label><br>
+    <input id="sports" name="interests" type="checkbox" value="sports">
+    <label for="sports">Sports</label><br>
+    <input id="books" name="interests" type="checkbox" value="books">
+    <label for="books">Books</label><br>
+  </fieldset>
+   <label>Tell us more about your feelings</label><br>
+  <textarea placeholder="Write down about your feelings..."></textarea><br>
+  <button id="submit" type="submit">Submit</button>
+  </form>
+  </body>
+</html>
