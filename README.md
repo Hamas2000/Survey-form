@@ -12,7 +12,8 @@ During the development of this survey, we learned the importance of creating an 
 
 Check out a preview of the survey form:
 
-![Emotional Status Survey](https://example.com/emotional-status-survey-preview)
+![Emotional Status Survey]![67](https://github.com/Hamas2000/Survey-form/assets/168201374/02fdfbf6-ac79-4347-b40a-ed9c7bfa544d)
+
 
 ## Technologies Used 🛠️
 
